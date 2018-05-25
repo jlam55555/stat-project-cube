@@ -80,8 +80,7 @@ let saveTime = () => {
   });
   
   // save scramble in file
-  // disable file writing for now to prevent error
-  //fs.writeFile('./scrambles.js', `export default ${ JSON.stringify(data, null, 2) }`, e => e && throw e);
+  fs.writeFile('./scrambles.js', `module.exports = ${ JSON.stringify(data, null, 2) };`, e => e && throw e);
 };
 
 // get a scramble and generate first scramble
