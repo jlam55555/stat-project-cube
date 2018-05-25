@@ -95,5 +95,5 @@ let generateScramble;
   
   // display the first scramble from the chosen scramble
   // format it so that multiple spaces are replaced with one
-  process.stdout.write('\n' + data[scramblerIndex].scrambles[0].replace(/\s+/g, ' '));
+  process.stdout.write('\n' + data[scramblerIndex].scrambles[0].replace(/\s+/g, ' ').trim());
 })();
