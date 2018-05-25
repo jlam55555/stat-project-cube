@@ -13,6 +13,13 @@ stdin.on('data', function(key) {
     process.exit();
   }
 
+  // if 'd' (delete) is pressed in state 2, delete last scramble
+  if(key === 'd\u000a' && state === 2) {
+    state = 0;
+    console.log('time not saved');
+    generateScramble();
+  }
+
   // when enter is pressed change state
   if(key === '\u000a') {
     switch(state) {
@@ -26,13 +33,6 @@ stdin.on('data', function(key) {
     }
   }
   
-  // if 'd' (delete) is pressed in state 2, delete last scramble
-  if(key === 'd' && state === 2) {
-    state = 0;
-    generateScramble();
-    console.log('time not saved');
-  }
-
 });
 
 // source: https://stackoverflow.com/a/34970550
@@ -56,13 +56,13 @@ let state = 0, start, duration;
 // start timer by beginning the duration
 let startTimer = () => {
   start = clock();
-  console.log('time started');
+  process.stdout.write('time started');
 };
 
 // end timer by getting duration and printing out the time
 let endTimer = () => {
   duration = clock(start);
-  console.log(duration/1000 + 's');
+  process.stdout.write(duration/1000 + 's\n[d]elete? ');
 };
 
 // save time
@@ -95,5 +95,5 @@ let generateScramble;
   
   // display the first scramble from the chosen scramble
   // format it so that multiple spaces are replaced with one
-  console.log(data[scramblerIndex].scrambles[0].replace(/\s+/g, ' '));
+  process.stdout.write('\n' + data[scramblerIndex].scrambles[0].replace(/\s+/g, ' '));
 })();
