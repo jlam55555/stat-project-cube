@@ -112,7 +112,6 @@ module.exports = [
   {
     "name": "cubetimer.com",
     "scrambles": [
-      "R' F2 D' U B' R F2 U' F' B' D2 F D' R' U L U2 D2 R L U2 L D L' D",
       "B2 R2 F D' L2 D R U' L' R B U2 D R U F U2 B2 L R D R' D2 U' L",
       "B D2 R' L D R F' B' U F D' L U' F2 U' D2 L U2 B2 R' L' F' D F L2",
       "L R F2 B' D' B L D2 U2 F' L2 U F' L' R' U D' R' L B' D' B' U R D2",
@@ -161,9 +160,9 @@ module.exports = [
       "D B F D B2 D' R U F' R2 U' D2 B' L' D F' R' U' D' L R' B' R D F",
       "B' L2 U' F' B D F2 R2 F2 U' R2 F2 B U' R B D U L2 F2 U' R U B R'",
       "F' U' B' L' U' D' R2 B' L2 R' D' B U F' D' L' F2 D L2 B2 R2 B2 U' F2 R2",
-      "U' B2 D2 R D2 F' R2 U' L' R2 B R2 U2 L' B2 D2 F' L' F' D2 U F' B2 D2 U'"
-    ]
-  },
+      "U' B2 D2 R D2 F' R2 U' L' R2 B R2 U2 L' B2 D2 F' L' F' D2 U F' B2 D2 U'",
+      "R' F2 D' U B' R F2 U' F' B' D2 F D' R' U L U2 D2 R L U2 L D L' D"
+  }
   {
     "name": "qqTimer",
     "scrambles": [
@@ -215,13 +214,8 @@ module.exports = [
       "L  B' L' B' U  R' L  D' B  U2 L2 F2 L2 B2 D  L2 U  R2 U' ",
       "U2 R' U' D2 R' U' F2 R  D  L2 B2 D2 R2 B2 U  F2 U  L2 B2 ",
       "L2 U  B2 L2 D' B2 D2 B2 R2 F2 L2 R' U  F2 D  B2 F' D2 R  D' B  ",
-      "D' R2 D  L2 U  F2 R2 B2 U2 L2 U' L' D' R' U' F' D2 U  F2 D' U2 "
-    ],
-    "solved": [
-      {
-        "scramble": "D' L2 D  B2 R2 U' L2 U' B2 D2 R2 B  U' L' B' F2 U2 B  D' L' ",
-        "duration": 905
-      }
+      "D' R2 D  L2 U  F2 R2 B2 U2 L2 U' L' D' R' U' F' D2 U  F2 D' U2 ",
+      "D' L2 D  B2 R2 U' L2 U' B2 D2 R2 B  U' L' B' F2 U2 B  D' L' "
     ]
   },
   {
