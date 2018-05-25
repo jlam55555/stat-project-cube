@@ -76,7 +76,8 @@ let saveTime = () => {
   }
   data[scramblerIndex].solved.push({
     scramble: scramble,
-    duration: duration
+    duration: duration,
+    date: new Date().getTime()
   });
   
   // save scramble in file

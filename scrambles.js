@@ -2,8 +2,6 @@ module.exports = [
   {
     "name": "Ruwix",
     "scrambles": [
-      "D' F' U L' B L2 D' L' U' R2 B2 D R2 D2 U' B' L2 D F' D' ",
-      "D2 R' B' U L' U L D R' B R2 B2 U2 L2 B U F B U' D2 ",
       "L2 B' D F' L' R2 U' R B D' B2 D U2 F' B2 L' B D L B' ",
       "L' U2 D R2 D L' U F2 L2 R2 D2 U' B2 D B' F2 U2 B' L' F2 ",
       "D' B F R F' B2 R D' L2 U2 F' D2 R D R2 B R B' D2 R' ",
@@ -74,13 +72,20 @@ module.exports = [
       {
         "scramble": "D2 B' F D U2 R' U' R2 B' L' R2 F2 U' L F L2 B2 D2 B' U2 ",
         "duration": 16111
+      },
+      {
+        "scramble": "D' F' U L' B L2 D' L' U' R2 B2 D R2 D2 U' B' L2 D F' D' ",
+        "duration": 17069
+      },
+      {
+        "scramble": "D2 R' B' U L' U L D R' B R2 B2 U2 L2 B U F B U' D2 ",
+        "duration": 17811
       }
     ]
   },
   {
     "name": "csTimer",
     "scrambles": [
-      "B2 L F' U2 B L' B U2 R B2 D B2 U D L2 D' B2 L2 U' R' ",
       "U' F U B2 D' L F' B' R F2 R2 U' R2 F2 D2 F2 D' B2 U L ",
       "B2 L F2 D2 R' U2 F2 R2 D B' R2 D' L U L D2 B F2 ",
       "D' B2 U F2 U' F2 L2 U2 F2 L2 R2 F R2 D L D2 F2 D L2 R2 ",
@@ -146,16 +151,16 @@ module.exports = [
       {
         "scramble": "D L' B U' D' L F2 L D' R2 U' B2 R2 L2 D' R2 U2 F2 B2 L' ",
         "duration": 17365
+      },
+      {
+        "scramble": "B2 L F' U2 B L' B U2 R B2 D B2 U D L2 D' B2 L2 U' R' ",
+        "duration": 18176
       }
     ]
   },
   {
     "name": "cubetimer.com",
     "scrambles": [
-      "D' U' L D B' D2 R' D2 B2 F D' F2 U2 R' F B' U' R' F2 D2 L2 F' R B2 U2",
-      "L2 D2 F L2 F' B2 U2 L B2 D2 U' R L2 U2 B2 R' F' L R2 U R2 D2 R F L2",
-      "L' U2 D2 R2 U' B2 R2 D' F' R2 B U R' U F' D' U' R F' U2 F R F' U L'",
-      "U2 L2 D2 U' F2 U' F2 U R2 B' L' B2 F U2 R' B U B2 U L2 U' L D' B2 L",
       "B L F' D' U2 B U2 D2 R F' U' F2 U2 R' U' L' D L2 D F' B' L' F2 D2 L'",
       "D' R D' B F U2 L' D2 R' F' R2 B2 D R D L2 B' F2 D' L D L' U F2 R2",
       "R' B U2 R F' B' R U2 R' L' F2 B2 L D2 R F2 B2 L F' U' F2 R F L2 R",
@@ -227,17 +232,28 @@ module.exports = [
       {
         "scramble": "F' R L2 B2 F' L R2 D2 B2 D B2 L2 B2 R2 B2 R' F2 R' B R2 L' U' B U2 B'",
         "duration": 17996
+      },
+      {
+        "scramble": "D' U' L D B' D2 R' D2 B2 F D' F2 U2 R' F B' U' R' F2 D2 L2 F' R B2 U2",
+        "duration": 16158
+      },
+      {
+        "scramble": "L2 D2 F L2 F' B2 U2 L B2 D2 U' R L2 U2 B2 R' F' L R2 U R2 D2 R F L2",
+        "duration": 17187
+      },
+      {
+        "scramble": "L' U2 D2 R2 U' B2 R2 D' F' R2 B U R' U F' D' U' R F' U2 F R F' U L'",
+        "duration": 22304
+      },
+      {
+        "scramble": "U2 L2 D2 U' F2 U' F2 U R2 B' L' B2 F U2 R' B U B2 U L2 U' L D' B2 L",
+        "duration": 17786
       }
     ]
   },
   {
     "name": "qqTimer",
     "scrambles": [
-      "F2 L' U  F2 L' D2 F  B2 L  F' D2 R2 F2 R2 D' B2 U' R2 L2 F2 D  ",
-      "U  F2 D  B2 D  B2 U' L2 U2 B' L2 R' B2 D2 B  F2 L' D2 U' ",
-      "U' B2 L2 D2 F2 R2 U' F2 R2 B2 R2 F  L  F2 L  D  U  R' F2 L' R2 ",
-      "U' B2 U  F2 D' R2 B2 D2 R2 B2 D' L' U' F' R2 D  R  B  D  F' U2 ",
-      "B2 U2 F2 D  B2 F2 U  L2 F2 D' F2 L' F  R' B' R2 F  D' B  R' ",
       "B  L2 B' D2 L2 D2 B' R2 B  U2 F' D' L  F' U  R  D' L  B  L' F  ",
       "F' R2 B' L' D' B2 R' F  U2 L' F2 U2 F2 U2 L2 B2 R  D2 R' ",
       "F2 U2 R  F2 L2 R' B2 U2 R  D2 R  B' L2 D  L' B2 D2 L2 B  L  U' ",
@@ -274,7 +290,8 @@ module.exports = [
       "U2 R' U' D2 R' U' F2 R  D  L2 B2 D2 R2 B2 U  F2 U  L2 B2 ",
       "L2 U  B2 L2 D' B2 D2 B2 R2 F2 L2 R' U  F2 D  B2 F' D2 R  D' B  ",
       "D' R2 D  L2 U  F2 R2 B2 U2 L2 U' L' D' R' U' F' D2 U  F2 D' U2 ",
-      "D' L2 D  B2 R2 U' L2 U' B2 D2 R2 B  U' L' B' F2 U2 B  D' L' "
+      "D' L2 D  B2 R2 U' L2 U' B2 D2 R2 B  U' L' B' F2 U2 B  D' L' ",
+      "U  F2 D  B2 D  B2 U' L2 U2 B' L2 R' B2 D2 B  F2 L' D2 U' "
     ],
     "solved": [
       {
@@ -308,14 +325,28 @@ module.exports = [
       {
         "scramble": "B2 U  R2 B2 U  R2 D  U2 R2 B2 D2 B' L' U' F  U  R' D  L' U2 R2 ",
         "duration": 15961
+      },
+      {
+        "scramble": "F2 L' U  F2 L' D2 F  B2 L  F' D2 R2 F2 R2 D' B2 U' R2 L2 F2 D  ",
+        "duration": 18737
+      },
+      {
+        "scramble": "U' B2 L2 D2 F2 R2 U' F2 R2 B2 R2 F  L  F2 L  D  U  R' F2 L' R2 ",
+        "duration": 16747
+      },
+      {
+        "scramble": "U' B2 U  F2 D' R2 B2 D2 R2 B2 D' L' U' F' R2 D  R  B  D  F' U2 ",
+        "duration": 15408
+      },
+      {
+        "scramble": "B2 U2 F2 D  B2 F2 U  L2 F2 D' F2 L' F  R' B' R2 F  D' B  R' ",
+        "duration": 12117
       }
     ]
   },
   {
     "name": "mine (not random-state)",
     "scrambles": [
-      "D  U2 F  U  F2 B' F2 L' U  F' B' L2 F  U' B  D' R  U2 L' B' D' U' F  L' B' ",
-      "D2 L  U  D' F' D2 R2 D' U' D  B2 D  R' U2 F2 B  R' D  F' R2 B2 R2 B' U' D' ",
       "D' F  B' D  R' B  R  L  F2 U  B' F' U' R  B' R2 F2 R2 B2 U2 D  B2 L' D' L' ",
       "U2 B' D2 U' B' F2 L' B' L  B  L2 B  U' L  D2 U' R' B  D2 R' L' B  F  L2 D2 ",
       "B  L' B  L  D' R' B  F' U2 R  B' F  U' L  B' R' D  F' U2 R2 L2 B' R  B  F  ",
@@ -360,7 +391,8 @@ module.exports = [
       "B' R2 D  R  F' R' L  U' R' F  U  F' D2 L  U  D' L  B2 F' D  U2 B' D2 L2 B2 ",
       "L2 F  D  F' B  R' U  R' L2 B2 L2 R2 B  D  R  B  F2 U2 D' U2 R' D2 L' B  D  ",
       "R  B  R' D' L  F' L' R2 B  F  B  U' D2 U' B2 F  D' F2 L2 B' U' D' R2 F' L2 ",
-      "L' U  D  U' D' U' B2 L' B  U2 L2 U  B  U' B' F' B  R' D  F' U  L2 F  L2 B2 "
+      "L' U  D  U' D' U' B2 L' B  U2 L2 U  B  U' B' F' B  R' D  F' U  L2 F  L2 B2 ",
+      "D  U2 F  U  F2 B' F2 L' U  F' B' L2 F  U' B  D' R  U2 L' B' D' U' F  L' B' "
     ],
     "solved": [
       {
@@ -374,14 +406,16 @@ module.exports = [
       {
         "scramble": "R  D' R  L2 B2 U2 F2 L2 F' B  U' R2 B2 D  F  B  R  U  D  U2 L2 B' R  B2 L  ",
         "duration": 16975
+      },
+      {
+        "scramble": "D2 L  U  D' F' D2 R2 D' U' D  B2 D  R' U2 F2 B  R' D  F' R2 B2 R2 B' U' D' ",
+        "duration": 15965
       }
     ]
   },
   {
     "name": "Block Keeper",
     "scrambles": [
-      "B2 L' U2 R' B2 L' U2 L  F2 D2 L2 U' L' R2 F2 R' F  U2 L' R' ",
-      "U2 B2 D2 B2 F' R2 B' D2 F' R2 U2 L  F  L  F2 D' F2 R  D  U' L  ",
       "L2 F2 R2 B2 R2 U  L2 D  R2 F  D' R  U  F  R2 D' R2 B' D2 U' ",
       "B' D2 R' U  L' D  R2 U2 R' U  F' L2 B  R2 U2 R2 L2 F  U2 B2 ",
       "L2 U2 B  R  B' L  U' D  F  R' U2 R2 L2 D' F2 L2 D2 L2 U  F2 U2 ",
@@ -443,6 +477,14 @@ module.exports = [
       {
         "scramble": "U2 F' D2 R2 F  U2 R2 B' F' D2 B2 D  L  R2 F' U' R2 F  R2 B  U  ",
         "duration": 17163
+      },
+      {
+        "scramble": "B2 L' U2 R' B2 L' U2 L  F2 D2 L2 U' L' R2 F2 R' F  U2 L' R' ",
+        "duration": 16388
+      },
+      {
+        "scramble": "U2 B2 D2 B2 F' R2 B' D2 F' R2 U2 L  F  L  F2 D' F2 R  D  U' L  ",
+        "duration": 18423
       }
     ]
   }
