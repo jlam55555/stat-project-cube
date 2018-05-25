@@ -9,7 +9,7 @@ stdin.setEncoding('utf8');
 // on any data into stdin
 stdin.on('data', function(key) {
   // ctrl-c ( end of text )
-  if (key === '\u0003') {
+  if(key === '\u0003') {
     process.exit();
   }
 
@@ -37,7 +37,7 @@ stdin.on('data', function(key) {
 
 // source: https://stackoverflow.com/a/34970550
 function clock(start) {
-  if (!start) return process.hrtime();
+  if(!start) return process.hrtime();
   var end = process.hrtime(start);
   return Math.round((end[0]*1000) + (end[1]/1000000));
 }
@@ -80,7 +80,7 @@ let saveTime = () => {
   });
   
   // save scramble in file
-  fs.writeFile('./scrambles.js', `module.exports = ${ JSON.stringify(data, null, 2) };`, e => e && throw e);
+  fs.writeFile('./scrambles.js', `module.exports = ${ JSON.stringify(data, null, 2) };`, e => { if(e) throw e });
 };
 
 // get a scramble and generate first scramble
